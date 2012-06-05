@@ -1,0 +1,11 @@
+<sidebar>
+  <section name="Books">
+    <item href="http://java.sun.com/docs/books/effective/">
+      Effective Java
+    </item>
+  </section>
+  <section name="Source">
+  </section>
+  <section name="Blogs/Posts">
+  </section>
+</sidebar>
