@@ -1,4 +1,43 @@
-name: Vicente Plata
+# Site settings
 title: Vicente Plata
+description: 'Welcome'
+url: 'http://xnt.github.io'
+baseurl: ''
+google_analytics: 'UA-48212133-2'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Vicente Plata'
+  email: ---
+  twitter_username: xnt
+  facebook_username: vplata
+  github_username:  xnt
+  linkedin_username:  vrplata
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
