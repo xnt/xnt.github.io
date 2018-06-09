@@ -26,7 +26,7 @@ In addition to Software Engineering, my main areas of interest include:
 Software is an incredible thing. We’ve been redefining the world at an amazing speed for the last decades. But I 
 believe we can do even more. We have the power, the privilege and the responsibility, to use that magic in order 
 to really touch and improve people’s lives. If you agree with me, and have an interesting idea or proposal, then 
-feel free to [contact me](http://m.me/vplata).
+feel free to [contact me](https://m.me/vplata).
 
 I worked with Open Source and Java-based technologies for quite a while, before moving to the Microsoft stack 
 -particularly PowerShell and C#. Right now, I'm learning a lot about Rails and React while trying to implement 
