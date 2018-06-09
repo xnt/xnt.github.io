@@ -1,0 +1,35 @@
+---
+title:  "Howdy!"
+date:   2016-06-08 16:54:23
+categories: [etc]
+tags: [etc]
+---
+Thanks for stopping by!
+
+I’m Vicente Plata. I’m a Software Engineer currently working at [Points International](https://www.points.com/), 
+[Points Travel](https://company.points.com/solutions/points-travel/)/[PointsHound](https://pointshound.com/hotel/) 
+in particular. I create, fix and automate software. My areas of expertise mostly involve:
+
+  * Object Oriented Design,
+  * Automation (including automated tests, reporting, telemetry and monitoring),
+  * Defensive Coding,
+  * Best Practices
+
+In addition to Software Engineering, my main areas of interest include:
+
+  * History
+  * Coffee
+  * Reading
+  * Writing
+  * Pokémon and video games in general
+
+Software is an incredible thing. We’ve been redefining the world at an amazing speed for the last decades. But I 
+believe we can do even more. We have the power, the privilege and the responsibility, to use that magic in order 
+to really touch and improve people’s lives. If you agree with me, and have an interesting idea or proposal, then 
+feel free to [contact me](http://m.me/vplata).
+
+I worked with Open Source and Java-based technologies for quite a while, before moving to the Microsoft stack 
+-particularly PowerShell and C#. Right now, I'm learning a lot about Rails and React while trying to implement 
+some of the knowledge I've acquired about Engineering and Leadership after over 12 years of experience in the industry.
+
+Thanks again for stopping by, and have a great day!
