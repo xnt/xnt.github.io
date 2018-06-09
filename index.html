@@ -10,6 +10,7 @@ robots: noindex
       <li>
         <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
         <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
+        <p class="read-more"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">Read More &raquo;</a></p>
         <div class="post-list__meta">
             <time datetime="{{ post.date | date: "%Y-%m-%d %H:%M" }}" class="post-list__meta--date date">{{ post.date | date: "%-d %b %Y" }}</time>
             {% if post.tags.size > 0 %}
