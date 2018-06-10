@@ -2,7 +2,18 @@
 layout: default
 robots: noindex
 ---
-
+{% comment %} 
+  TODO: move to a module or component or whatevs, since we use it in some other places!
+{% endcomment %}
+{% if site.twitter_contact %}
+  <section id="contact">
+    <div class="twitter-contact">
+      <a href="https://twitter.com/intent/tweet?screen_name={{ site.twitter_contact }}&ref_src=twsrc%5Etfw" 
+        class="twitter-mention-button" data-dnt="true" data-show-count="false">Tweet to @{{ site.twitter_contact }}</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </section>
+{% endif %}
 <div class="main-post-list">
 
   <ol class="post-list">

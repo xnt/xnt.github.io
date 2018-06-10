@@ -5,6 +5,7 @@ url: 'http://xnt.github.io'
 baseurl: ''
 google_analytics: 'UA-48212133-2'
 # disqus_shortname: 'your-disqus-name'
+twitter_contact: xnt # Comment/delete to disable contact button
 
 author:
   name: 'Vicente Plata'
