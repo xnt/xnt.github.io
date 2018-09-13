@@ -77,6 +77,16 @@
               </li>
             {% endif %}
 
+            {% if site.author.speakerdeck %}
+              <!-- Speakerdeck -->
+              <li class="navigation__item">
+                <a href="https://speakerdeck.com/{{ site.author.speakerdeck }}" title="Speakerdeck {{ site.author.instagram_username }}" target="_blank">
+                  <i class="icon icon-comment-video"></i>
+                  <span class="label">Speakerdeck</span>
+                </a>
+              </li>
+            {% endif %}
+
             <!-- RSS -->
             <li class="navigation__item">
               <a href="{{ site.baseurl }}/feed.xml" title="Subscribe" target="_blank">

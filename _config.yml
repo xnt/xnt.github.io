@@ -10,11 +10,12 @@ twitter_contact: xnt # Comment/delete to disable contact button
 author:
   name: 'Vicente Plata'
   email: ---
-  twitter_username: xnt
   facebook_username: vplata
   github_username:  xnt
-  linkedin_username:  vrplata
   instagram_username: xnt87
+  linkedin_username:  vrplata
+  twitter_username: xnt
+  speakerdeck: xnt
 
 defaults:
   -
