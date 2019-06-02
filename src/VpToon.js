@@ -3,12 +3,8 @@ import vpToon  from './img/vpToon.png';
 
 const VpToon = memo(function VpToon(props) {
   return (
-    <img alt='portrait' src={vpToon} />
+    <img alt='portrait' src={vpToon} style={{marginTop: '15px', width: '200px'}} />
   );
-})
+});
 
-VpToon.propTypes = {
-
-}
-
-export default VpToon
+export default VpToon;

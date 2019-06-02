@@ -4,14 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Button = memo(function Button(props) {
   return (
-    <div>
-      <a href={props.link} rel="noopener noreferrer" target='_blank'>
+    <span style={{padding: '5px'}}>
+      <a href={props.link} rel="noopener noreferrer" target='_blank' className="linkButton">
         {props.icon && (
-          <FontAwesomeIcon icon={['fab', props.icon]} />
-        )}
-        {props.label}
+          <FontAwesomeIcon icon={['fab', props.icon]} color="white" style={{marginRight: '5px'}} />
+        )}{props.label}
       </a>
-    </div>
+    </span>
   )
 })
 
