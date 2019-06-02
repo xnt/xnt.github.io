@@ -3,7 +3,7 @@ import VpToon from './VpToon';
 
 const Header = memo(function Header(props) {
   return (
-    <div>
+    <div style={{textAlign: 'center'}}>
       <header>
         <VpToon />
         <h1>Vicente Plata</h1>
