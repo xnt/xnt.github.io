@@ -1,9 +1,11 @@
 import React, { memo } from 'react';
+import UnsplashCredit from './UnsplashCredit';
 
 export default memo(function Footer() {
   return (
-    <div style={{margin: '25px'}}>
+    <div>
       <sub>&copy; {1900 + new Date().getYear()} Vicente Plata</sub>
+      <UnsplashCredit />
     </div>
   )
 });
