@@ -7,4 +7,6 @@ const VpToon = memo(function VpToon(props) {
   );
 });
 
+VpToon.displayName = 'VpToon';
+
 export default VpToon;

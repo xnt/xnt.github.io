@@ -30,4 +30,6 @@ const Welcome = memo(function Welcome(props) {
   )
 });
 
+Welcome.displayName = 'Welcome';
+
 export default Welcome;

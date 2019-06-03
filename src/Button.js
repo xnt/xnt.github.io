@@ -20,4 +20,6 @@ Button.propTypes = {
   link: PropTypes.string.isRequired
 }
 
-export default Button
+Button.displayName = 'Button';
+
+export default Button;
