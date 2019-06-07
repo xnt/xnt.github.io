@@ -18,7 +18,7 @@ const Welcome = memo(function Welcome(props) {
         at <a href="https://forhims.com" rel="noopener noreferrer" target="_blank">hims
         </a> and <a href="https://forhers.com" rel="noopener noreferrer" target="_blank">hers</a>. 
         My team primarily takes care of the UI in the 
-        <Emoji label="doctor" emoji="👩‍⚕️" /> EMR/Doctor experience that our physicians use to validate, 
+        <Emoji label="doctor" emoji="👩‍⚕️" />EMR/Doctor experience that our physicians use to validate, 
         assess and (if appropriate) dispatch your prescriptions. Check us out!
       </p>
       <h3>Skills</h3>

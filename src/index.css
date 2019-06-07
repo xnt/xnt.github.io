@@ -64,6 +64,14 @@ code {
 }
 
 .App div p {
-  font-size: 18px;
-  text-shadow:8px 8px 30px #ffffff;
+	font-size: 1.4em;
+  text-shadow: 1em 1em 2em #ffffff;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.6em;
 }
