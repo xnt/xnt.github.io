@@ -18,7 +18,7 @@ function App() {
       bgImage={bg}
       bgImageStyle={{opacity: '.8'}}
       blur={5}
-      strength={400}
+      strength={600}
       >
       <div className="App">
         <div>
