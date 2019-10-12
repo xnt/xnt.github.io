@@ -23,15 +23,29 @@ const Welcome = memo(function Welcome(props) {
       </p>
       <h3>Skills</h3>
       <p>
-        I'm not that much of a fan of technology lists/bullets. I'd rather talk about soft
-        skills and general areas of expertise (security, automation, accessibility, best practices). 
-        But if you really want to know, check my GitHub or LinkedIn profiles. TLDR: Java, 
-        C#, PowerShell, Ruby/Rails, JavaScript (React).
+        I'm not that much of a fan of technology lists. Languages and technologies are 
+        basically tools to get things done. I'd rather talk about soft skills and general 
+        areas of expertise:
+        <ul>
+          <li>Remote Engineering Management and Leadership</li>
+          <li>Security</li>
+          <li>Automation</li>
+          <li>Accessibility</li>
+          <li>Best Practices</li>
+        </ul>
+        If you insist, though, check my GitHub or LinkedIn profiles. TLDR:
+        <ul>
+          <li>Java</li>
+          <li>C#</li>
+          <li>PowerShell</li>
+          <li>Ruby/Rails</li>
+          <li>JavaScript (React)</li>
+        </ul>
       </p>
       <h3>About this website</h3>
       <p>
         I'm rebuilding my website because of reasons. This might take a while. Until
-        then, check out:
+        then, check out the buttons at the top <Emoji label="pointing up" emoji="☝️" />.
       </p>
     </div>
   )
