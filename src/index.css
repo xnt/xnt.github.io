@@ -73,6 +73,12 @@ h1, h2, h3, h4 {
 	text-align: center;
 }
 
+a {
+	color: #ccc;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
 div p {
 	font-size: 1.4em;
 }
