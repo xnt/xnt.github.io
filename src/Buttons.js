@@ -18,7 +18,7 @@ const BUTTONS = [
 export default memo(function Buttons() {
 
   return (
-    <div>
+    <div id="buttons">
       {
         BUTTONS.map((button) => {
              return <Button 
