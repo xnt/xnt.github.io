@@ -8,7 +8,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import './App.css';
 import Dashboard from "./Dashboard";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
@@ -18,7 +18,7 @@ function App() {
   library.add(fab);
 
   return (
-    <Router>
+    <Router basename='/'>
       <Switch>
         <Route path="/db">
           <Dashboard />
