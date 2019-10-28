@@ -6,11 +6,11 @@ import Welcome from './Welcome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import './App.css';
+import Dashboard from "./Dashboard";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -20,11 +20,11 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
         <Route path="/db">
           <Dashboard />
+        </Route>
+        <Route path="/">
+          <Home />
         </Route>
       </Switch>
     </Router>
@@ -40,14 +40,6 @@ const Home = () => {
         <Welcome />
         <Footer />
       </div>
-    </div>
-  );
-};
-
-const Dashboard = () => {
-  return (
-    <div>
-      <h1>Dashboard</h1>
     </div>
   );
 };
