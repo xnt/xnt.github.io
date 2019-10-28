@@ -9,8 +9,8 @@ const createTimeObject = (label, timezone) => {
 }
 
 const times = [
-  createTimeObject("Toronto/KW/Montreal", "America/Toronto"),
-  createTimeObject("San Francisco", "America/Los_Angeles"),
+  createTimeObject("Toronto/ KW/ Montreal", "America/Toronto"),
+  createTimeObject("San Francisco / Vancouver", "America/Los_Angeles"),
   createTimeObject("Vienna", "Europe/Vienna"),
   createTimeObject("Hermosillo", "America/Hermosillo"),
   createTimeObject("Corrientes", "America/Argentina/Buenos_Aires")
