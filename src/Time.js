@@ -4,7 +4,7 @@ import Clock from 'react-live-clock'
 
 const Time = memo(function Time(props) {
   return (
-    <div>
+    <div style={{ margin: "15px", textAlign: "center" }}>
       <h3>{props.label}</h3>
       <Clock format={'HH:mm:ss'} ticking={true} timezone={props.timezone} />
     </div>

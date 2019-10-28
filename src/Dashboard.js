@@ -18,10 +18,10 @@ const times = [
 
 export default memo(function Dashboard() {
   return (
-    <div>
+    <div style={{ display: "inline", float: "left" }}>
       <h1>Dashboard</h1>
       <h2>Times</h2>
-      <div>
+      <div style={{display: "flex", flexFlow: "row wrap", justifyContent: "space-around"}}>
         {
           times.map((time) => {
             return <Time key={time.label} label={time.label} timezone={time.timezone} />
