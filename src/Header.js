@@ -1,14 +1,15 @@
 import React, { memo } from 'react';
 import VpToon from './VpToon';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 const Header = memo(function Header(props) {
   return (
-    <div style={{textAlign: 'center'}}>
+    <Jumbotron>
       <header>
         <VpToon />
         <h1>Vicente Plata</h1>
       </header>
-    </div>
+    </Jumbotron>
   );
 })
 

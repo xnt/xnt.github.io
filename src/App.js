@@ -1,8 +1,5 @@
 import React from 'react';
-import Buttons from './Buttons';
-import Footer from './Footer';
-import Header from './Header';
-import Welcome from './Welcome';
+import Home from './Home';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import './App.css';
@@ -12,6 +9,7 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   // fa init
@@ -30,18 +28,5 @@ function App() {
     </Router>
   );
 }
-
-const Home = () => {
-  return (
-    <div>
-      <div>
-        <Buttons />
-        <Header />
-        <Welcome />
-        <Footer />
-      </div>
-    </div>
-  );
-};
 
 export default App;
