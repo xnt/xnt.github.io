@@ -19,7 +19,7 @@ const BUTTONS = [
 export default memo(function Buttons() {
 
   return (
-    <ButtonGroup className="my-1">
+    <ButtonGroup className="flex-wrap my-1">
       {
         BUTTONS.map((button) => {
              return <Button 

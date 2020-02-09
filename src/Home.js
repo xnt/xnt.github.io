@@ -4,14 +4,32 @@ import Buttons from './Buttons';
 import Footer from './Footer';
 import Header from './Header';
 import Welcome from './Welcome';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export default memo(function Home() {
   return (
     <Container>
-        <Buttons />
-        <Header />
-        <Welcome />
-        <Footer />
+      <Row>
+        <Col>
+          <Buttons />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Header />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Welcome />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Footer />
+        </Col>
+      </Row>
     </Container>
   )
 });
