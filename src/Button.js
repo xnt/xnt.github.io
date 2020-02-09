@@ -1,16 +1,20 @@
 import React, { memo } from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import BsButton from 'react-bootstrap/Button';
 
-const Button = memo(function Button(props) {
+
+const Button = memo(function Button({ icon, label, link }) {
+  const sendToLink = () => {
+    window.location.href = link;
+  };
+
   return (
-    <span style={{padding: '5px'}}>
-      <a href={props.link} rel="noopener noreferrer" target='_blank' className="linkButton">
-        {props.icon && (
-          <FontAwesomeIcon icon={['fab', props.icon]} color="white" style={{marginRight: '5px'}} />
-        )}{props.label}
-      </a>
-    </span>
+    <BsButton className="mr-1" onClick={sendToLink.bind(this)} variant="secondary">
+        {icon && (
+          <FontAwesomeIcon icon={['fab', icon]} color="white"/>
+        )} {label}
+    </BsButton>
   )
 })
 

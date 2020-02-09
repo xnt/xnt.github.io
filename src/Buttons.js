@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import Button from './Button';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 const createButton = (label, link, icon=null) => {
   return {'label': label, 'link': link, 'icon': icon};
@@ -18,7 +19,7 @@ const BUTTONS = [
 export default memo(function Buttons() {
 
   return (
-    <div id="buttons">
+    <ButtonGroup className="my-1">
       {
         BUTTONS.map((button) => {
              return <Button 
@@ -29,6 +30,6 @@ export default memo(function Buttons() {
           }
         )
       }
-    </div>
+    </ButtonGroup>
   )
 });

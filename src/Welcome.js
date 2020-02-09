@@ -29,22 +29,24 @@ const Welcome = memo(function Welcome(props) {
           I'm not that much of a fan of technology lists. Languages and technologies are 
           basically tools to get things done. I'd rather talk about soft skills and general 
           areas of expertise:
-          <ul>
-            <li>Remote Engineering Management and Leadership</li>
-            <li>Security</li>
-            <li>Automation</li>
-            <li>Accessibility</li>
-            <li>Best Practices</li>
-          </ul>
-          If you insist, though, check my GitHub or LinkedIn profiles. TLDR:
-          <ul>
-            <li>Java</li>
-            <li>C#</li>
-            <li>PowerShell</li>
-            <li>Ruby/Rails</li>
-            <li>JavaScript (React)</li>
-          </ul>
         </p>
+        <ul>
+          <li>Remote Engineering Management and Leadership</li>
+          <li>Security</li>
+          <li>Automation</li>
+          <li>Accessibility</li>
+          <li>Best Practices</li>
+        </ul>
+        <p>
+          If you insist, though, check my GitHub or LinkedIn profiles. TLDR:
+        </p>
+        <ul>
+          <li>Java</li>
+          <li>C#</li>
+          <li>PowerShell</li>
+          <li>Ruby/Rails</li>
+          <li>JavaScript (React)</li>
+        </ul>
         <h3>About this website</h3>
         <p>
           I'm rebuilding my website because of reasons. This might take a while. Until
