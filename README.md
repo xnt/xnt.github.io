@@ -1,5 +1,23 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Customizations
+
+For the purpose of making this my "home page", I've made a couple of customizations and adaptations on top of the standard create-react-app app. Feel free to [reach out](https://twitter.com/xnt) if you have any question. Generally speaking:
+
+### Dependencies
+
+* Added **react-bootstrap**. I know there are probably better alternatives out there, but I like vanilla bootstrap because it's simple and to the point
+* Added **fortawesome** for reactified fontawesome icons
+* Added **gh-pages** for easier integration with, uh, Github pages
+
+### Github Pages deployment
+
+Using the **gh-pages** package, I use the `source` git branch for editing and testing. Then, the output of the `build` directory is pushed to `master` -which is picked up by Github's serving logic
+
+### New scripts
+
+On top of the regular scripts described below, I added `predeploy` as a dependency to `deploy`. The magic itself is in the `deploy` script, which as outlined above, ensures that the result of `build` ends up in `master` and triggers a Github deployment
+
 ## Available Scripts
 
 In the project directory, you can run:
