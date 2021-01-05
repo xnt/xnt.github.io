@@ -10,7 +10,7 @@ const Button = memo(function Button({ icon, label, link }) {
   };
 
   return (
-    <BsButton className="mr-1 my-1" onClick={sendToLink.bind(this)} variant="secondary">
+    <BsButton className="mr-1 my-1" onClick={sendToLink.bind(this)} variant="outline-light">
         {icon && (
           <FontAwesomeIcon icon={['fab', icon]} color="white"/>
         )} {label}
