@@ -20,7 +20,7 @@ const Welcome = memo(function Welcome(props) {
         </p>
         <ul>
           <li>Leadership-oriented tasks and roles</li>
-          <li>Advisory roles regarding remote sofwtare engineering, distributed workforce, and community building</li>
+          <li>Advisory roles regarding remote software engineering, distributed workforce, and community building</li>
           <li>Mentoring latin american engineers with professional development topics 
             (<a href="https://calendly.com/vplata/mentorship"><Emoji label="Calendar" emoji="📅" /> Agenda una mentor&iacute;a</a>)</li>
         </ul>
