@@ -13,7 +13,8 @@ const BUTTONS = [
   createButton('LinkedIn', 'https://www.linkedin.com/in/vrplata', 'linkedin'),
   createButton('GitHub', 'https://www.github.com/xnt', 'github'),
   createButton('Instagram', 'https://www.instagram.com/xnt87', 'instagram'),
-  createButton('Keybase', 'https://keybase.io/vplata', 'keybase')
+  createButton('Telegram', 'https://t.me/xnt87', 'telegram'),
+  //createButton('Keybase', 'https://keybase.io/vplata', 'keybase')
 ];
 
 export default memo(function Buttons() {
