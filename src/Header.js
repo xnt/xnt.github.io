@@ -1,6 +1,6 @@
-import React, { memo } from 'react';
-import VpToon from './VpToon';
-import Jumbotron from 'react-bootstrap/Jumbotron';
+import React from 'react';
+// import VpToon from './VpToon';
+// import Jumbotron from 'react-bootstrap/Jumbotron';
 
 const Header = () => <h1>Vicente Plata</h1>; 
 // memo(function Header(props) {
@@ -20,4 +20,4 @@ const Header = () => <h1>Vicente Plata</h1>;
 
 Header.displayName = 'Header';
 
-export default Header
+export default React.memo(Header);
