@@ -16,9 +16,14 @@ const Welcome = memo(function Welcome(props) {
         </h3>
         <p className="pb-2">
           My name is <b>Vicente Plata</b>. I'm a Software Engineer{" "}
-          <Emoji label="technologist" emoji="👨‍💻" /> with an emphasis in
-          leadership-oriented tasks and roles.
+          <Emoji label="technologist" emoji="👨‍💻" /> with an emphasis in:
         </p>
+        <ul>
+          <li>Leadership-oriented tasks and roles</li>
+          <li>Advisory roles regarding remote sofwtare engineering, distributed workforce, and community building</li>
+          <li>Mentoring latin american engineers with professional development topics 
+            (<a href="https://calendly.com/vplata/mentorship"><Emoji label="Calendar" emoji="📅" /> Agenda una mentor&iacute;a</a>)</li>
+        </ul>
         <h3>Day to day</h3>
         <p className="pb-2">
           On a day-to-day 9-to-5 basis, I work as a Senior Engineering Lead at{" "}
@@ -63,7 +68,7 @@ const Welcome = memo(function Welcome(props) {
           <li>C#</li>
           <li>PowerShell</li>
           <li>Ruby/Rails</li>
-          <li>JavaScript + TypeScript (React)</li>
+          <li>JavaScript + TypeScript (React, React Native)</li>
         </ul>
         <h3>About this website</h3>
         <p className="pb-2">
