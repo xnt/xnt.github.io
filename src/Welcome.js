@@ -1,7 +1,10 @@
 import React, { memo } from "react";
-import Emoji from "./Emoji";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
+import Emoji from "./Emoji";
+import { GuestAppearance } from "./GuestAppearance";
+import { APPEARANCES } from "./guest-appearances";
 
 const Welcome = memo(function Welcome(props) {
   return (
@@ -69,6 +72,18 @@ const Welcome = memo(function Welcome(props) {
           <li>PowerShell</li>
           <li>Ruby/Rails</li>
           <li>JavaScript + TypeScript (React, React Native)</li>
+        </ul>   
+        <h3>Guest Appearances</h3>
+        <p classname="pb-2">
+          Some folks have been kind enough to invite me to their Lives, Podcasts 
+          and similar events. Most of them in Spanish. FYI:
+        </p>
+        <ul>
+          {APPEARANCES.map(appearance => 
+            <GuestAppearance 
+              link={appearance.link}
+              linkTitle={appearance.linkTitle}
+              title={appearance.title} />)}
         </ul>
         <h3>About this website</h3>
         <p className="pb-2">
