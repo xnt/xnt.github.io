@@ -27,4 +27,6 @@ export const APPEARANCES = [
     "Video", "The Dojo: 20 consejos para mejorar como desarrollador"),
   new Appearance("https://www.facebook.com/DevzCommunity/videos/2706211403001621",
     "Live", "Devz Live: AMA"),
+  new Appearance("https://www.youtube.com/watch?v=AvtHJjXAFkQ",
+    "Live", "Cafe con amigos"),
 ];
