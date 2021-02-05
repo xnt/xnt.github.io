@@ -52,4 +52,14 @@ export const APPEARANCES = [
     "Devz Live: AMA"
   ),
   new Appearance("https://www.youtube.com/watch?v=AvtHJjXAFkQ", "Live", "Cafe con amigos"),
+  new Appearance(
+    "https://www.youtube.com/watch?v=DC1jShoPGac",
+    "Chat",
+    "SaaS Product Chat, E114: Software de telemedicina"
+  ),
+  new Appearance(
+    "https://www.youtube.com/watch?v=8HKt7evQCoM",
+    "Talk",
+    "SGVirtual 2020 - Reutilizando codigo con React Native y React Native for Web"
+  ),
 ];
