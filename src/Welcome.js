@@ -35,7 +35,18 @@ const Welcome = React.memo(() => (
         </li>
       </ul>
       <h3>Day to day</h3>
-      <p className="pb-2">On a day-to-day 9-to-5 basis, some personal updates soon!</p>
+      <p className="pb-2">
+        On a day-to-day 9-to-5 basis, I work at{" "}
+        <a href="https://shopify.com" target="_blank" rel="noopener noreferrer">
+          Shopify
+          <Emoji label="Shopping bags" emoji="🛍" />
+        </a>
+        , doing mostly frontend stuff in the{" "}
+        <a href="https://shop.app" target="_blank" rel="noopener noreferrer">
+          Shop Pay <Emoji label="Moneyz" emoji="💳" />
+        </a>{" "}
+        team.
+      </p>
       <h3>Skills</h3>
       <p>
         I'm not that much of a fan of technology lists. Languages and technologies are basically
@@ -62,7 +73,7 @@ const Welcome = React.memo(() => (
         Most of them in Spanish. FYI:
       </p>
       <ul>
-        {APPEARANCES.map(appearance => (
+        {APPEARANCES.map((appearance) => (
           <GuestAppearance
             link={appearance.link}
             linkTitle={appearance.linkTitle}
