@@ -62,4 +62,14 @@ export const APPEARANCES = [
     "Talk",
     "SGVirtual 2020 - Reutilizando codigo con React Native y React Native for Web"
   ),
+  new Appearance(
+    "https://www.youtube.com/watch?v=oedl7d4YFEY",
+    "Talk",
+    "Tomato Nights Digital - Formando Equipos de Trabajo"
+  ),
+  new Appearance(
+    "https://www.youtube.com/watch?v=ldloMgjil_k",
+    "Talk",
+    "El Meetup DEV - Ponte en mis Zapatos: Las Entrevistas y los Roles"
+  ),
 ];
