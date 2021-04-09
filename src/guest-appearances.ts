@@ -72,4 +72,9 @@ export const APPEARANCES = [
     "Talk",
     "El Meetup DEV - Ponte en mis Zapatos: Las Entrevistas y los Roles"
   ),
+  new Appearance(
+    "https://www.youtube.com/watch?v=MicMx8WlKGg",
+    "Conference",
+    "Innova Emprende - Comete al Mundo con Tecnologia"
+  ),
 ];
