@@ -41,11 +41,15 @@ const Welcome = React.memo(() => (
           Shopify
           <Emoji label="Shopping bags" emoji="🛍" />
         </a>
-        , doing mostly frontend stuff in the{" "}
+        , doing mostly frontend and mobile stuff in the{" "}
         <a href="https://shop.app" target="_blank" rel="noopener noreferrer">
+          Shop App <Emoji label="mobile phone" emoji="📱" />
+        </a>
+        and{" "}
+        <a href="https://shop.app/shop-pay" target="_blank" rel="noopener noreferrer">
           Shop Pay <Emoji label="Moneyz" emoji="💳" />
         </a>{" "}
-        team.
+        teams.
       </p>
       <h3>Skills</h3>
       <p>
