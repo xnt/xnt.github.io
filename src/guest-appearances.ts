@@ -77,4 +77,9 @@ export const APPEARANCES = [
     "Conference",
     "Innova Emprende - Comete al Mundo con Tecnologia"
   ),
+  new Appearance(
+    "https://www.youtube.com/watch?v=Z8-1dYRjDRQ",
+    "Podcast",
+    "Sin Frontera DEV - ¿Se necesita un titulo?"
+  ),
 ];
