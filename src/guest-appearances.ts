@@ -82,4 +82,9 @@ export const APPEARANCES = [
     "Podcast",
     "Sin Frontera DEV - ¿Se necesita un titulo?"
   ),
+  new Appearance(
+    "https://elpodcast.dev/episodes/107",
+    "Podcast",
+    "El Podcast DEV - Juegos Infinitos"
+  ),
 ];
