@@ -17,6 +17,7 @@ const BUTTONS = [
   createButton("Telegram", "https://t.me/xnt87", "telegram"),
   createButton("YouTube", "https://youtube.com/c/VicentePlata", "youtube"),
   createButton("Polywork", "https://polywork.com/xnt"),
+  createButton("📕 My booklet", "/book.html"),
 ];
 
 export default memo(function Buttons() {
