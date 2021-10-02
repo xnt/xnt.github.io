@@ -87,4 +87,9 @@ export const APPEARANCES = [
     "Podcast",
     "El Podcast DEV - Juegos Infinitos"
   ),
+  new Appearance(
+    "https://www.youtube.com/watch?v=DGh0avweHlE",
+    "Talk",
+    "Talently - Conviértete en Tech Lead"
+  ),
 ];
