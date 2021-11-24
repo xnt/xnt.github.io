@@ -92,4 +92,9 @@ export const APPEARANCES = [
     "Talk",
     "Talently - Conviértete en Tech Lead"
   ),
+  new Appearance(
+    "https://www.youtube.com/watch?v=SwRKNuQhLrs",
+    "Live Coding",
+    "Shopify - Emojified Loteria in React"
+  ),
 ];
