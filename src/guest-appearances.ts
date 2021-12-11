@@ -97,4 +97,9 @@ export const APPEARANCES = [
     "Live Coding",
     "Shopify - Emojified Loteria in React"
   ),
+  new Appearance(
+    "https://www.youtube.com/watch?v=0zC9rHjRqZ0",
+    "Talk / Interview",
+    "Make an impact: working remotely at a high-growth startup as a full-time Latin American engineer"
+  ),
 ];
