@@ -95,11 +95,16 @@ export const APPEARANCES = [
   new Appearance(
     "https://www.youtube.com/watch?v=SwRKNuQhLrs",
     "Live Coding",
-    "Shopify - Emojified Loteria in React"
+    "Shopify - Emojified Loteria in React (English)"
   ),
   new Appearance(
     "https://www.youtube.com/watch?v=0zC9rHjRqZ0",
     "Talk / Interview",
     "Make an impact: working remotely at a high-growth startup as a full-time Latin American engineer"
+  ),
+  new Appearance(
+    "https://www.youtube.com/watch?v=5enQPoXuzjs",
+    "Talk / Interview",
+    "Make an impact: working remotely at a high-growth startup as a full-time Latin American engineer (English)"
   ),
 ];
