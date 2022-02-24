@@ -17,22 +17,19 @@ const Welcome = React.memo(() => (
         About Me <Emoji label="Mexican and Canadian flags" emoji="🇲🇽🇨🇦" />
       </h3>
       <p className="pb-2">
-        My name is <b>Vicente Plata</b>. I'm a Software Engineer{" "}
-        <Emoji label="technologist" emoji="👨‍💻" /> with an emphasis in:
+        My name is <b>Vicente Plata</b>. I'm strongly convinced of the overall positive impact of
+        technology <Emoji label="technologist" emoji="👨‍💻" /> , and try to apply it in areas like:
       </p>
       <ul>
+        <li>Software development</li>
         <li>Leadership-oriented tasks and roles</li>
         <li>
           Advisory roles regarding remote software engineering, distributed workforce, and community
           building
         </li>
-        <li>
-          Mentoring latin american engineers with professional development topics (
-          <a href="https://calendly.com/vplata/mentorship">
-            <Emoji label="Calendar" emoji="📅" /> Agenda una mentor&iacute;a
-          </a>
-          )
-        </li>
+        <li>D2C, CPG</li>
+        <li>Telemed/Telehealth and travel</li>
+        <li>Mentoring latin american engineers with professional development topics</li>
       </ul>
       <h3>Day to day</h3>
       <p className="pb-2">
@@ -51,6 +48,9 @@ const Welcome = React.memo(() => (
         </a>{" "}
         offerings. For example: checkout in-app, wallets, sustainability and carbon offsets.
       </p>
+      <p>
+        I also mentor and provide advice to several organizations and startups in the above topics
+      </p>
       <h3>Skills</h3>
       <p>
         I'm not that much of a fan of technology lists. Languages and technologies are basically
@@ -61,15 +61,14 @@ const Welcome = React.memo(() => (
         <li>Security</li>
         <li>Automation</li>
         <li>Accessibility</li>
-        <li>Best Practices</li>
       </ul>
       <p className="pb-2">If you insist, though, check my GitHub or LinkedIn profiles. TLDR:</p>
       <ul>
-        <li>Java</li>
+        <li>JavaScript + TypeScript (React, React Native)</li>
+        <li>Java (but I don't like it anymore)</li>
         <li>C#</li>
         <li>PowerShell</li>
         <li>Ruby/Rails</li>
-        <li>JavaScript + TypeScript (React, React Native)</li>
       </ul>
       <h3>Guest Appearances</h3>
       <p classname="pb-2">
