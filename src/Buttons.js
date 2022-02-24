@@ -10,13 +10,14 @@ const BUTTONS = [
   createButton("Resume", "https://xnt.github.io/cv"),
   createButton("Twitter", "https://twitter.com/xnt", "twitter"),
   createButton("TikTok", "https://tiktok.com/@xnt87", "tiktok"),
-  createButton("Facebook", "https://fb.me/vplata", "facebook"),
+  createButton("🦄 MisFans", "https://mis.fans/xnt", "wave"),
   createButton("LinkedIn", "https://www.linkedin.com/in/vrplata", "linkedin"),
   createButton("GitHub", "https://www.github.com/xnt", "github"),
   createButton("Instagram", "https://www.instagram.com/xnt87", "instagram"),
   createButton("Telegram", "https://t.me/xnt87", "telegram"),
   createButton("YouTube", "https://youtube.com/c/VicentePlata", "youtube"),
   createButton("Polywork", "https://polywork.com/xnt"),
+  createButton("vplata.eth", "https://vplata.eth", "ethereum"),
   createButton("📕 My booklet", "/book.html"),
 ];
 
