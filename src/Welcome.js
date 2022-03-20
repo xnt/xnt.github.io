@@ -33,24 +33,13 @@ const Welcome = React.memo(() => (
       </ul>
       <h3>Day to day</h3>
       <p className="pb-2">
-        On a day-to-day 9-to-5 basis, I work at{" "}
-        <a href="https://shopify.com" target="_blank" rel="noopener noreferrer">
-          Shopify
-          <Emoji label="Shopping bags" emoji="🛍" />
+        My "main gig" is as a VP of Engineering at{" "}
+        <a href="https://runwayhealth.com" target="_blank" rel="noopener noreferrer">
+          Runway Health
         </a>
-        . I lead the team that handles the intersections of the
-        <a href="https://shop.app" target="_blank" rel="noopener noreferrer">
-          Shop App <Emoji label="mobile phone" emoji="📱" />
-        </a>
-        and{" "}
-        <a href="https://shop.app/shop-pay" target="_blank" rel="noopener noreferrer">
-          Shop Pay <Emoji label="Moneyz" emoji="💳" />
-        </a>{" "}
-        offerings. For example: checkout in-app, wallets, sustainability and carbon offsets.
+        , redefining the intersection between travel, health and technology.
       </p>
-      <p>
-        I also mentor and provide advice to several organizations and startups in the above topics
-      </p>
+      <p>I also mentor and provide advice to several organizations and startups.</p>
       <h3>Skills</h3>
       <p>
         I'm not that much of a fan of technology lists. Languages and technologies are basically
@@ -76,8 +65,9 @@ const Welcome = React.memo(() => (
         Most of them in Spanish. FYI:
       </p>
       <ul>
-        {APPEARANCES.map((appearance) => (
+        {APPEARANCES.map((appearance, index) => (
           <GuestAppearance
+            key={`appearance-${index}`}
             link={appearance.link}
             linkTitle={appearance.linkTitle}
             title={appearance.title}
