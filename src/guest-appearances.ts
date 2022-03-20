@@ -107,4 +107,9 @@ export const APPEARANCES = [
     "Talk / Interview",
     "Make an impact: working remotely at a high-growth startup as a full-time Latin American engineer (English)"
   ),
+  new Appearance(
+    "https://theworkitem.com/blog/finding-your-engineering-passion-vicente-plata/",
+    "Podcast",
+    "The Work Item - Finding your Engineering Passion"
+  ),
 ];
